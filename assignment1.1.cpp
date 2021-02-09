@@ -13,6 +13,7 @@ int main()
   int seatC;
   
   // cout for making some prompt message
+  cout << "input the amount of tickets for each class:"<< endl;
   cin >> seatA >> seatB >> seatC;
 
   double totalA;
@@ -29,7 +30,7 @@ int main()
 	// print out with some message
 	// setw(), setprecision() 
 	
-  cout << total_amount <<endl;
+  cout <<"total amount of tickets sold:" << total_amount <<endl;
 
 
 
